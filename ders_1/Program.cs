@@ -50,16 +50,11 @@ namespace ders_1
             //else if(true) //else if 1. koşulun yani if'in sağlanmadığı durumda geçerlidir
             //{
 
-
-
             //}
 
             //else if (true) // 1. ve 2. koşulun sağlanmadığı durumda geçerlidir (yol ayrımı)
             //{
-
-
-
-
+ 
             //}
 
             //else
@@ -71,7 +66,6 @@ namespace ders_1
 
 
             double sayi_1, sayi_2, sonuc;
-
 
             Console.WriteLine("Bir sayı giriniz");
             sayi_1= double.Parse(Console.ReadLine());
@@ -86,11 +80,6 @@ namespace ders_1
                 Console.WriteLine("Sayı 10'dan büyük"); 
             } 
            
-
-
-
-
-
             else if (sonuc < 10)
             {
 
@@ -101,11 +90,6 @@ namespace ders_1
                 Console.WriteLine("Sayınız 10'a eşit");
                     }
             
-
-
-
-
-
             Console.ReadKey();
         }
     }
